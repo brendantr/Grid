@@ -8,10 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		E1041A682F0CE64000CED25F /* NetworkScanner in Frameworks */ = {isa = PBXBuildFile; productRef = E1041A672F0CE64000CED25F /* NetworkScanner */; };
+		E107D4B42F0F976200623B80 /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107D4B32F0F976200623B80 /* Host.swift */; };
+		E107D4B62F0F976400623B80 /* PortNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107D4B52F0F976400623B80 /* PortNames.swift */; };
+		E107D4B82F0F976600623B80 /* NetworkBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107D4B72F0F976600623B80 /* NetworkBackground.swift */; };
+		E107D4BA2F0F976700623B80 /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107D4B92F0F976700623B80 /* StatCard.swift */; };
+		E107D4BC2F0F976800623B80 /* FlexibleChips.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107D4BB2F0F976800623B80 /* FlexibleChips.swift */; };
+		E107D4BE2F0F976B00623B80 /* TopologyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107D4BD2F0F976B00623B80 /* TopologyView.swift */; };
+		E107D4C02F0F976F00623B80 /* HostRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107D4BF2F0F976F00623B80 /* HostRow.swift */; };
+		E107D4C22F0F977000623B80 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107D4C12F0F977000623B80 /* HomeView.swift */; };
+		E107D4C42F0F977B00623B80 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107D4C32F0F977B00623B80 /* ScanView.swift */; };
+		E107D4C62F0F977F00623B80 /* HostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107D4C52F0F977F00623B80 /* HostDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E1041A552F0CE47800CED25F /* Grid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E107D4B32F0F976200623B80 /* Host.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Host.swift; sourceTree = "<group>"; };
+		E107D4B52F0F976400623B80 /* PortNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortNames.swift; sourceTree = "<group>"; };
+		E107D4B72F0F976600623B80 /* NetworkBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkBackground.swift; sourceTree = "<group>"; };
+		E107D4B92F0F976700623B80 /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
+		E107D4BB2F0F976800623B80 /* FlexibleChips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleChips.swift; sourceTree = "<group>"; };
+		E107D4BD2F0F976B00623B80 /* TopologyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopologyView.swift; sourceTree = "<group>"; };
+		E107D4BF2F0F976F00623B80 /* HostRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostRow.swift; sourceTree = "<group>"; };
+		E107D4C12F0F977000623B80 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E107D4C32F0F977B00623B80 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		E107D4C52F0F977F00623B80 /* HostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -52,6 +72,16 @@
 			children = (
 				E1041A572F0CE47800CED25F /* Grid */,
 				E1041A562F0CE47800CED25F /* Products */,
+				E107D4B32F0F976200623B80 /* Host.swift */,
+				E107D4B52F0F976400623B80 /* PortNames.swift */,
+				E107D4B72F0F976600623B80 /* NetworkBackground.swift */,
+				E107D4B92F0F976700623B80 /* StatCard.swift */,
+				E107D4BB2F0F976800623B80 /* FlexibleChips.swift */,
+				E107D4BD2F0F976B00623B80 /* TopologyView.swift */,
+				E107D4BF2F0F976F00623B80 /* HostRow.swift */,
+				E107D4C12F0F977000623B80 /* HomeView.swift */,
+				E107D4C32F0F977B00623B80 /* ScanView.swift */,
+				E107D4C52F0F977F00623B80 /* HostDetailView.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,6 +171,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E107D4BC2F0F976800623B80 /* FlexibleChips.swift in Sources */,
+				E107D4B42F0F976200623B80 /* Host.swift in Sources */,
+				E107D4BE2F0F976B00623B80 /* TopologyView.swift in Sources */,
+				E107D4C42F0F977B00623B80 /* ScanView.swift in Sources */,
+				E107D4C02F0F976F00623B80 /* HostRow.swift in Sources */,
+				E107D4B62F0F976400623B80 /* PortNames.swift in Sources */,
+				E107D4C22F0F977000623B80 /* HomeView.swift in Sources */,
+				E107D4B82F0F976600623B80 /* NetworkBackground.swift in Sources */,
+				E107D4BA2F0F976700623B80 /* StatCard.swift in Sources */,
+				E107D4C62F0F977F00623B80 /* HostDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
