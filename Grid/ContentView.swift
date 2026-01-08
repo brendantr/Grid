@@ -88,7 +88,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack(path: $path) {
             ZStack {
-                NetworkBackground().ignoresSafeArea()
+                NetworkBackground()
 
                 VStack(spacing: 24) {
                     VStack(spacing: 8) {
@@ -124,6 +124,9 @@ struct ContentView: View {
                 }
                 .padding()
             }
+            .ignoresSafeArea()
+            .toolbarBackground(.hidden, for: .navigationBar)
+            .toolbarColorScheme(.dark, for: .navigationBar)
             .navigationDestination(for: Route.self) { route in
                 switch route {
                 case .scan:
@@ -189,7 +192,7 @@ struct ScanView: View {
 
     var body: some View {
         ZStack {
-            NetworkBackground().ignoresSafeArea()
+            NetworkBackground()
 
             VStack(spacing: 10) {
                 header
@@ -206,6 +209,9 @@ struct ScanView: View {
                 HostDetailView(host: host)
             }
         }
+        .ignoresSafeArea()
+        .toolbarBackground(.hidden, for: .navigationBar)
+        .toolbarColorScheme(.dark, for: .navigationBar)
     }
 
     private var header: some View {
@@ -468,6 +474,7 @@ struct HostDetailView: View {
             }
         }
         .onReceive(scanner.$hosts) { updated in
+
             if let match = updated.first(where: { $0.id == host.id }) {
                 host = match
             }
